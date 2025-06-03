@@ -18,7 +18,7 @@ import java.util.List;
 public class NoteController {
 
     @Autowired
-    NoteRepository noteRepository;
+    private NoteRepository noteRepository;
 
     @GetMapping("/notes")
     public List<Note> getAllNotes() {
