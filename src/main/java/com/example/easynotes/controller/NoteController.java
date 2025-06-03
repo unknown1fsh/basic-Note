@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * Created by rajeevkumarsingh on 27/06/17.
- */
+// Example code from the Easy Notes tutorial
 @RestController
 @RequestMapping("/api")
 public class NoteController {
